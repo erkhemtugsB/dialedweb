@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import React, { Suspense, useEffect, useLayoutEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import SplitText from "gsap/src/SplitText";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -26,7 +26,7 @@ export const SectionFlower = () => {
     
         function imageSequence(config) {
           let playhead = {frame: 0},
-          canvas = gsap.utils.toArray(config.canvas)[0] || console.warn("canvas not defined"),
+          canvas = gsap.utils.toArray(config.canvas)[0],
           ctx = canvas.getContext("2d"),
           curFrame = -1,
           onUpdate = config.onUpdate,

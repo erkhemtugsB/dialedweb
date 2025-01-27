@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 "use client";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
