@@ -140,7 +140,7 @@ export const ContactPageSection = () => {
                 </div>
                 <div className="contact-content-item opacity-blur" ref={contactItem6} >
                   <p className="small-description grey" >Email</p>
-                  <p className="description white" >admin@dialedweb.com</p>
+                  <p className="description white" >example@email.io</p>
                 </div>
                 <div className="contact-content-item opacity-blur" ref={contactItem7} >
                   <p className="small-description grey" >Address</p>
