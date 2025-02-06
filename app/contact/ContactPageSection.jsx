@@ -144,7 +144,7 @@ export const ContactPageSection = () => {
                 </div>
                 <div className="contact-content-item opacity-blur" ref={contactItem7} >
                   <p className="small-description grey" >Address</p>
-                  <p className="description white" >545 La Jolla Village Drive</p>
+                  <p className="description white" >Village Drive</p>
                   <p className="description white" >San Diego</p>
                   <p className="description white" >California</p>
                 </div>
